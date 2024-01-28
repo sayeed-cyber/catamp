@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive UI with Hyperlinks</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background-color: #3498db;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #2c3e50;
+            overflow: hidden;
+        }
+
+        nav a {
+            float: left;
+            display: block;
+            color: #ecf0f1;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        nav a:hover {
+            background-color: #555;
+            color: #fff;
+        }
+
+        section {
+            padding: 20px;
+        }
+
+        footer {
+            background-color: #3498db;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+        }
+
+        @media (max-width: 600px) {
+            nav a {
+                width: 100%;
+                float: none;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Responsive UI</h1>
+    </header>
+
+    <nav>
+        <a href="http://20.20.4.41:5000/">go to camera </a>
+    </nav>
+
+    <section>
+        <h2>Welcome to our website!</h2>
+        <p>This is a simple and responsive UI with hyperlinks. Feel free to explore the different sections.</p>
+    </section>
+
+    <footer>
+        &copy; 2024 Your Company Name
+    </footer>
+
+</body>
+</html>
